@@ -6,6 +6,10 @@
 			table, th, tr {
 				border: 1px solid black;
 				border-collapse: collapse;
+				
+			}
+			tr, th {
+				width: 150px;
 			}
 			#date {
 				width: 12px;
@@ -14,18 +18,21 @@
 				width: 20px;
 				
 			}
+			span {
+				color: tomato;
+			}
 		</style>
 	</head>
 	<body>
 		<table border="1">
 			<tr>
-			<th colspan="11">GST-Visakhapatnam, GITAM(Deemed to be University)</th>
+			<th colspan="11" style="color: #4b94cd">GST-Visakhapatnam, GITAM(Deemed to be University)</th>
 			</tr>
 			<tr>
-			<th colspan="11">revised- III & IV Year Academic Calendar - ODD SEMESTER(2022-2023)</th>
+			<th colspan="11" style="color: #4b94cd"><span>Revised</span>- III & IV Year Academic Calendar - ODD SEMESTER(2022-2023)</th>
 			</tr>
 			<tr>
-				<th>Days</th>
+				<th id="day">Days</th>
 				<th colspan="2">July 2022</th>
 				<th colspan="2">August 2022</th>
 				<th colspan="2">September 2022</th>
@@ -34,459 +41,459 @@
 			</tr>
 			<tr>
 				<td id="day">Mon</td>
-				<td id="date">1</td>
-				<td ></td>
-				<td id="date">1</td>
-				<td></td>
+				<td id="date" rowspan="4"></td>
+				<td rowspan="4"></td>
 				<td id="date">1</td>
 				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
+				<td id="date" rowspan="3"></td>
+				<td rowspan="3"></td>
+				<td id="date" rowspan="5"></td>
+				<td rowspan="5"></td>
+				<td id="date"></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td id="day">Tue</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
+				<td id="date">2</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td id="day">Wed</td>
-				<td id="date">1</td>
+				<td id="date">3</td>
+				<td></td>
+				<td id="date" bgcolor="#ffb432">2</td>
+				<td rowspan="3" bgcolor="#ffb432"> MID-3</td>
+			</tr>
+			<tr>
+				<td id="day">Thu</td>
+				<td id="date">4</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
+				<td id="date" bgcolor="#ffb432">3</td>
+			</tr>
+			<tr>
+				<td id="day">Fri</td>
 				<td id="date">1</td>
+				<td></td>
+				<td id="date">5</td>
+				<td></td>
+				<td id="date">2</td>
+				<td></td>
+				<td id="date" bgcolor="#ffb432">4</td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day">Sat</td>
+				<td id="date">2</td>
+				<td></td>
+				<td id="date">6</td>
+				<td></td>
+				<td id="date">3</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
-				<td id="date">1</td>
+				<td id="date">5</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day">Sun</td>
+				<td id="date">3</td>
+				<td></td>
+				<td id="date">7</td>
+				<td></td>
+				<td id="date">4</td>
+				<td></td>
+				<td id="date" bgcolor="#1974bb">2</td>
+				<td bgcolor="#1974bb">MAHATMA GANDHI JAYANTHI</td>
+				<td id="date">6</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Mon</td>
+				<td id="date" bgcolor="#6fb40a">4</td>
+				<td bgcolor="#6fb40a">COMMENCEMENT OF ODD Semster Classwork</td>
+				<td id="date">8</td>
+				<td></td>
+				<td id="date">5</td>
+				<td>MID-TERM FEEDBACK END DATE </td>
+				<td id="date">3</td>
+				<td></td>
+				<td id="date">7</td>
+				<td>REGISTRATION FOR EVEN SEM START DATE ALL PROGRAMS </td>
+			</tr>
+			<tr>
+				<td id="day">Tue</td>
+				<td id="date">5</td>
+				<td></td>
+				<td id="date">9</td>
+				<td></td>
+				<td id="date">6</td>
+				<td></td>
+				<td id="date">4</td>
+				<td></td>
+				<td id="date">8</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Wed</td>
+				<td id="date">6</td>
+				<td></td>
+				<td id="date">10</td>
+				<td></td>
+				<td id="date">7</td>
+				<td></td>
+				<td id="date">5</td>
+				<td bgcolor="#1974bb">VIJAYADASAMI</td>
+				<td id="date">9</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td id="day">Thu</td>
-				<td id="date">1</td>
+				<td id="date">7</td>
+				<td></td>
+				<td id="date">11</td>
+				<td>HAR GHAR TIRANGA PROGRAM START DATE </td>
+				<td id="date">8</td>
+				<td></td>
+				<td id="date">6</td>
+				<td></td>
+				<td id="date">10</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Fri</td>
+				<td id="date">8</td>
+				<td></td>
+				<td id="date">12</td>
+				<td></td>
+				<td id="date">9</td>
+				<td></td>
+				<td id="date">7</td>
+				<td></td>
+				<td id="date">11</td>
+				<td>REGISTRATION FOR EVEN SEM END DATE-ALL PROGRAMMES</td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day">Sat</td>
+				<td id="date">9</td>
+				<td></td>
+				<td id="date">13</td>
+				<td></td>
+				<td id="date">10</td>
+				<td></td>
+				<td id="date">8</td>
+				<td></td>
+				<td id="date">12</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day" bgcolor="#1974bb">Sun</td>
+				<td id="date" bgcolor="#1974bb">10</td>
+				<td bgcolor="#1974bb">BAKRID(ID-UL-ZUHA)</td>
+				<td id="date">14</td>
+				<td></td>
+				<td id="date">11</td>
+				<td></td>
+				<td id="date">9</td>
+				<td></td>
+				<td id="date">13</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Mon</td>
+				<td id="date">11</td>
+				<td></td>
+				<td id="date" bgcolor="#1974bb">15</td>
+				<td bgcolor="#1974bb">INDEPENDENCE DAY </td>
+				<td id="date">12</td>
+				<td></td>
+				<td id="date">10</td>
+				<td></td>
+				<td id="date" bgcolor="#d61600">14</td>
+				<td bgcolor="#d61600">CLOSURE OF ODD Semester Classwork</td>
+			</tr>
+			<tr>
+				<td id="day">Tue</td>
+				<td id="date">12</td>
+				<td></td>
+				<td id="date">16</td>
+				<td></td>
+				<td id="date">13</td>
+				<td></td>
+				<td id="date">11</td>
+				<td></td>
+				<td id="date">15</td>
+				<td>COMMECEMENT OF EXAMINATIONS(ODD Sem)</td>
+			</tr>
+			<tr>
+				<td id="day">Wed</td>
+				<td id="date">13</td>
+				<td></td>
+				<td id="date">17</td>
+				<td>HAR GHAR TIRANGA PROGRAM END DATE</td>
+				<td id="date">14</td>
+				<td></td>
+				<td id="date">12</td>
+				<td></td>
+				<td id="date">16</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Thu</td>
+				<td id="date">14</td>
+				<td></td>
+				<td id="date">18</td>
+				<td></td>
+				<td id="date">15</td>
+				<td></td>
+				<td id="date">13</td>
+				<td></td>
+				<td id="date">17</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Fri</td>
+				<td id="date">15</td>
+				<td></td>
+				<td id="date" bgcolor="#1974bb">19</td>
+				<td bgcolor="#1974bb">SIR KRISHNA JANMASTAMI</td>
+				<td id="date">16</td>
+				<td></td>
+				<td id="date">14</td>
+				<td></td>
+				<td id="date">18</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day">Sat</td>
+				<td id="date">16</td>
+				<td></td>
+				<td id="date">20</td>
+				<td></td>
+				<td id="date">17</td>
+				<td></td>
+				<td id="date">15</td>
+				<td></td>
+				<td id="date">19</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day">Sun</td>
+				<td id="date">17</td>
+				<td></td>
+				<td id="date">21</td>
+				<td></td>
+				<td id="date">18</td>
+				<td></td>
+				<td id="date">16</td>
+				<td></td>
+				<td id="date">20</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Mon</td>
+				<td id="date">18</td>
+				<td></td>
+				<td id="date">22</td>
+				<td></td>
+				<td id="date">19</td>
+				<td></td>
+				<td id="date">17</td>
+				<td></td>
+				<td id="date">21</td>
+				<td>SUBMISSION OF CONTINUOUS EVALUATION MARKS </td>
+			</tr>
+			<tr>
+				<td id="day">Tue</td>
+				<td id="date">19</td>
+				<td></td>
+				<td id="date">23</td>
+				<td></td>
+				<td id="date">20</td>
+				<td></td>
+				<td id="date">18</td>
+				<td></td>
+				<td id="date">22</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Wed</td>
+				<td id="date">20</td>
+				<td></td>
+				<td id="date" bgcolor="#ffab19">24</td>
+				<td rowspan="3" bgcolor="#ffab19">MID-1</td>
+				<td id="date">21</td>
+				<td></td>
+				<td id="date">19</td>
+				<td></td>
+				<td id="date">23</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Thu</td>
+				<td id="date">21</td>
+				<td></td>
+				<td id="date" bgcolor="#ffab19">25</td>
+				<td id="date">22</td>
+				<td></td>
+				<td id="date">20</td>
+				<td></td>
+				<td id="date">24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Fri</td>
+				<td id="date">22</td>
+				<td></td>
+				<td id="date" bgcolor="#ffab19">26</td>
+				<td id="date">23</td>
+				<td></td>
+				<td id="date">21</td>
+				<td></td>
+				<td id="date">25</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day">Sat</td>
+				<td id="date">23</td>
+				<td></td>
+				<td id="date">27</td>
+				<td></td>
+				<td id="date">24</td>
+				<td></td>
+				<td id="date">22</td>
+				<td></td>
+				<td id="date">26</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#E5BE9E">
+				<td id="day">Sun</td>
+				<td id="date">24</td>
+				<td></td>
+				<td id="date">28</td>
+				<td></td>
+				<td id="date">25</td>
+				<td></td>
+				<td id="date">23</td>
+				<td></td>
+				<td id="date">27</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Mon</td>
+				<td id="date">25</td>
+				<td></td>
+				<td id="date">29</td>
+				<td>MID TERM FEEDBACK START DATE </td>
+				<td id="date">26</td>
+				<td></td>
+				<td id="date" bgcolor="#1974bb">24</td>
+				<td bgcolor="#1974bb">DEEPAVALI END TERM FEEDBACK START DATE</td>
+				<td id="date">28</td>
+				<td>CLOSURE OF EXAMINATIONS(OOD Sem)</td>
+			</tr>
+			<tr>
+				<td id="day">Tue</td>
+				<td id="date">26</td>
+				<td></td>
+				<td id="date">30</td>
+				<td></td>
+				<td id="date">27</td>
+				<td></td>
+				<td id="date">25</td>
+				<td>LAST DATE FOR PAYMENT OF TUITION FEES FOR EVEN SEMESTER WITHOUT FINE</td>
+				<td id="date">29</td>
+				<td>DATE OF COMMENCEMENT OF CLASSWORK (EVEN Sem)</td>
+			</tr>
+			<tr>
+				<td id="day">Wed</td>
+				<td id="date">27</td>
+				<td></td>
+				<td id="date">31</td>
+				<td>VINAYAKA CHAVITHI</td>
+				<td id="date" bgcolor="#ffab19">28</td>
+				<td rowspan="3" bgcolor="#ffab19">MID-2</td>
+				<td id="date">26</td>
+				<td></td>
+				<td id="date">30</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td id="day">Thu</td>
+				<td id="date">28</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
+				<td id="date" bgcolor="#ffab19">29</td>
+				<td id="date">27</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td id="day">Fri</td>
-				<td id="date">1</td>
+				<td id="date">29</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
+				<td id="date" bgcolor="#ffab19">30</td>
+				<td id="date">28</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
 			</tr>
 			<tr bgcolor="#E5BE9E">
 				<td id="day">Sat</td>
-				<td id="date">1</td>
+				<td id="date">30</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
-				<td id="date">1</td>
+				<td id="date">29</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
 			</tr>
 			<tr bgcolor="#E5BE9E">
 				<td id="day">Sun</td>
-				<td id="date">1</td>
+				<td id="date">31</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
-				<td id="date">1</td>
+				<td id="date">30</td>
 				<td></td>
 				<td id="date">1</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td id="day">Mon</td>
-				<td id="date">1</td>
+				<td id="date"></td>
 				<td></td>
-				<td id="date">1</td>
+				<td id="date"></td>
 				<td></td>
-				<td id="date">1</td>
+				<td id="date"></td>
 				<td></td>
-				<td id="date">1</td>
+				<td id="date">31</td>
+				<td>END TERM FEEDBACKEND DATE </td>
+				<td id="date"></td>
 				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
 			<tr>
-				<td id="day">Tue</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Wed</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Thu</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Fri</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sat</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sun</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Mon</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Tue</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Wed</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Thu</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Fri</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sat</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sun</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Mon</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Tue</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Wed</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Thu</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Fri</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sat</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sun</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Mon</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Tue</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Wed</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Thu</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td id="day">Fri</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sat</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
-			<tr bgcolor="#E5BE9E">
-				<td id="day">Sun</td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-				<td id="date">1</td>
-				<td></td>
-			</tr>
+				<td id="day">No. of Days</td>
+				<td id="date"></td>
+				<td>20</td>
+				<td id="date"></td>
+				<td>20</td>
+				<td id="date"></td>
+				<td>22</td>
+				<td id="date"></td>
+				<td>21</td>
+				<td id="date"></td>
+				<td>10</td>
 		</table>
 	</body>
 </html>
